@@ -59,3 +59,6 @@ print(classification_report(y_test, y_test_pred, target_names = class_names))
 print("\n" + "#"*40)
 
 plt.show()
+
+
+python class_imbalance.py balance
